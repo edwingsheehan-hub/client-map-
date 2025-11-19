@@ -14,7 +14,7 @@ function initMap() {
     });
 
     // Array of predefined markers
-    var markers = [
+    /*var markers = [
         {
             coords: { lat: 41.88452, lng: -87.62485 },
             content: '<h3>Chicago</h3>'
@@ -44,7 +44,7 @@ function initMap() {
             content: '<h3>Las Vegas</h3>'
         }
     ];
-
+    */
     // Loop through markers array and add them to the map
     for (var i = 0; i < markers.length; i++) {
         addMarker(markers[i]);
@@ -72,4 +72,5 @@ function initMap() {
 document.addEventListener('DOMContentLoaded', function() {
     console.log('Completed and ready');
     
+
 });
